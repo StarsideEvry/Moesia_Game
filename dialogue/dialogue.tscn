@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://7dnblt2gkeif"]
+
+[ext_resource type="Script" uid="uid://dnf8bc66ptao0" path="res://dialogue/dialogue_player.gd" id="1_o03r2"]
+[ext_resource type="Texture2D" uid="uid://d0kk136nuc37r" path="res://art/brick1.png" id="2_vigd0"]
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 56.0
+offset_bottom = 40.0
+script = ExtResource("1_o03r2")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_right = 56.0
+offset_bottom = 40.0
+texture = ExtResource("2_vigd0")
+metadata/_edit_group_ = true
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 106.0
+offset_bottom = 22.0
+scale = Vector2(0.5, 0.5)
+scroll_active = false
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 1.9999976
+offset_top = 12.0
+offset_right = 150.57144
+offset_bottom = 86.285706
+scale = Vector2(0.35, 0.35)
+scroll_active = false
