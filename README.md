@@ -1,11 +1,102 @@
-A game set in a distant world with a distant pass, where apocalypse rummeged through the lands, 
-leaving nothing but a broken world followed by dying hopes and dreand and lands scarred for eternity.
+# Moesia Game
+**A game about saving your homeland.**
 
-Currently the game development is halted, no development is planned for the forseeable future
+A post-apocalyptic narrative adventure game set in a distant world ravaged by apocalypse. Journey through scarred lands, uncover forgotten histories, and fight to restore hope to a broken world.
 
-Down further you can see in-game images, followed by the control schema of the game
-<img width="1533" height="725" alt="b439935c-31ae-4091-bf3c-4f8db2560c27" src="https://github.com/user-attachments/assets/cd4d9521-7385-4f05-a200-8e9eb9f8c2d0" />
-<img width="1391" height="718" alt="d839fd13-96bc-429e-8984-cccedd2137de" src="https://github.com/user-attachments/assets/104f036f-e9ad-4504-8747-9f307a0477cf" />
-<img width="1438" height="694" alt="2572964e-41da-409b-95d5-3d9851dbeab2" src="https://github.com/user-attachments/assets/da5511c2-c913-4074-9067-1b91fff853e2" />
+---
 
-The current control schema is comparatively simple, movement is done in a standard wasd/arrow keys movement, to interact with npcs just press "T" and then "Enter" to advance, invettory can be opened with "I" and simply while close to the edge of the map press "Space" to switch the levels.
+## 📖 Overview
+
+Moesia is a story-driven game set in a distant realm where apocalypse has left nothing but ruin and dying hope. The lands are scarred by catastrophic events, yet life persists. As the player, you venture through this broken world to uncover mysteries, aid survivors, and discover what it truly means to save your homeland.
+
+Crafted with **Godot Engine** and **GDScript**, Moesia combines atmospheric exploration with meaningful player choices and interactions.
+
+---
+
+## 🎮 Gameplay Features
+
+- **Exploration-Based Narrative**: Wander through beautifully crafted post-apocalyptic environments
+- **NPC Interactions**: Meet survivors and learn their stories through dialogue
+- **Inventory System**: Collect items and manage resources for your journey
+- **Atmospheric World**: Immerse yourself in a richly detailed, scarred landscape
+- **Simple Controls**: Intuitive WASD/Arrow key movement and interaction system
+
+---
+
+## 🕹️ Controls
+
+| Action | Key(s) |
+|--------|--------|
+| **Move** | `W` / `A` / `S` / `D` or `Arrow Keys` |
+| **Interact with NPCs** | `T` |
+| **Advance Dialogue** | `Enter` |
+| **Open Inventory** | `I` |
+
+---
+
+## 📸 Screenshots
+
+Here's a glimpse of the world of Moesia:
+
+![Moesia Gameplay - Environment 1](https://github.com/user-attachments/assets/cd4d9521-7385-4f05-a200-8e9eb9f8c2d0)
+
+![Moesia Gameplay - Environment 2](https://github.com/user-attachments/assets/104f036f-e9ad-4504-8747-9f307a0477cf)
+
+![Moesia Gameplay - Environment 3](https://github.com/user-attachments/assets/da5511c2-c913-4074-9067-1b91fff853e2)
+
+---
+
+## 🛠️ Development
+
+**Status**: Development is currently halted. No development is planned for the foreseeable future.
+
+### Tech Stack
+
+- **Engine**: [Godot Engine](https://godotengine.org/)
+- **Language**: GDScript (100%)
+- **Platform**: Cross-platform
+
+### Project Structure
+
+```
+Moesia-Game/
+├── scenes/          # Scene files (.tscn)
+├── scripts/         # GDScript files (.gd)
+├── assets/          # Graphics, audio, and other resources
+├── project.godot    # Godot project configuration
+└── README.md        # This file
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Godot Engine](https://godotengine.org/download) (4.x recommended, or match the version used in this project)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/StarsideEvry/Moesia-Game.git
+   cd Moesia-Game
+   ```
+
+2. **Open in Godot**:
+   - Launch Godot Engine
+   - Click "Open Project"
+   - Navigate to the cloned `Moesia-Game` folder
+   - Select `project.godot` and open
+
+3. **Run the game**:
+   - Press `F5` or click the Play button in the editor
+
+---
+
+## 🔗 Links
+
+- [Godot Engine Documentation](https://docs.godotengine.org/)
+- [GDScript Documentation](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/)
+
+---
